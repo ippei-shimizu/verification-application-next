@@ -7,3 +7,13 @@ export type Article = {
   content: string;
   category: Category;
 };
+
+// Enumを用いた型定義
+export const CategoryEnum = {
+  TECHNOLOGY: "technology",
+  HEALTH: "health",
+  FINANCE: "finance",
+  LIFESTYLE: "lifestyle",
+} as const;
+
+export type CategoryEnum = (typeof CategoryEnum)[keyof typeof CategoryEnum];
