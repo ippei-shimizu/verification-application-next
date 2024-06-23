@@ -21,6 +21,6 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/useEffect/_components/search_form.jsx", "src/app/useEffect/_components/filtered_list_not_good.jsx", "src/app/useEffect/_components/filtered_list_good.jsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", "src/app/useEffect/_components/search_form.jsx", "src/app/useEffect/_components/filtered_list_not_good.jsx", "src/app/useEffect/_components/filtered_list_good.jsx", "src/app/useEffect/page.tsx"],
   "exclude": ["node_modules"]
 }
